@@ -1,5 +1,5 @@
 <!--index.wxml-->
 <view class="container">
-<camera frame-size="small" device-position="front" class="cameraClass"></camera>
+<camera frame-size="{{frameSize}}" device-position="front" class="cameraClass"></camera>
 <canvas type="webgl" id="canvasId" canvas-id="canvasId" class="canvasClass" disable-scroll="true"></canvas>
 </view>
